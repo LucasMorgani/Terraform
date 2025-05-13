@@ -25,6 +25,6 @@ resource "aws_instance" "app_server" {
  #                     EOF
   key_name      = "KeyPair-Default"
   tags          = {
-    Name = "TesteAWS"
+    Name = "Terraform-Ansible-Python"
   }
 }
